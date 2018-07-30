@@ -1,0 +1,23 @@
+{
+  "name": "toefungi/fungi-db-service",
+  "description": "SQL query generator for PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Pickering",
+      "email": "alexp@curve.group"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "ToeFungi\\QueryBuilder\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "laravel/lumen-framework": "5.4.*",
+    "vlucas/phpdotenv": "~2.2"
+  }
+}
